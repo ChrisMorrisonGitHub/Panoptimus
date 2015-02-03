@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8310C10019BB98AC00754843 /* CMWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8310C0FF19BB98AC00754843 /* CMWebView.m */; };
+		8343CE891A79AFF70017BE1F /* Panoptimus.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8343CE881A79AFF70017BE1F /* Panoptimus.icns */; };
+		8353C47C1997F64C00D1DF73 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8353C47B1997F64C00D1DF73 /* Cocoa.framework */; };
+		8353C4861997F64C00D1DF73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8353C4841997F64C00D1DF73 /* InfoPlist.strings */; };
+		8353C4881997F64C00D1DF73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8353C4871997F64C00D1DF73 /* main.m */; };
+		8353C48C1997F64C00D1DF73 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8353C48A1997F64C00D1DF73 /* Credits.rtf */; };
+		8353C48F1997F64C00D1DF73 /* CMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8353C48E1997F64C00D1DF73 /* CMDocument.m */; };
+		8353C4921997F64C00D1DF73 /* CMDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8353C4901997F64C00D1DF73 /* CMDocument.xib */; };
+		8353C4951997F64C00D1DF73 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8353C4931997F64C00D1DF73 /* MainMenu.xib */; };
+		8353C4971997F64C00D1DF73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8353C4961997F64C00D1DF73 /* Images.xcassets */; };
+		8353C4BD1998055200D1DF73 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8353C4BC1998055200D1DF73 /* WebKit.framework */; };
+		838CFFCE1A7D54CB00B85B70 /* CMWebAddressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 838CFFCD1A7D54CB00B85B70 /* CMWebAddressBar.m */; };
+		83DFB8501A791CB60094E222 /* CMApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DFB84F1A791CB60094E222 /* CMApplicationDelegate.m */; };
+		83E4EEF71A7C206100780ABF /* SearchPreferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E4EEF31A7C206100780ABF /* SearchPreferences.png */; };
+		83E4EEF81A7C206100780ABF /* SearchPreferences@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E4EEF41A7C206100780ABF /* SearchPreferences@2x.png */; };
+		83E4EEF91A7C206100780ABF /* SecurityPreferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E4EEF51A7C206100780ABF /* SecurityPreferences.png */; };
+		83E4EEFA1A7C206100780ABF /* SecurityPreferences@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E4EEF61A7C206100780ABF /* SecurityPreferences@2x.png */; };
+		83E4EEFC1A7C24AA00780ABF /* GenericApplicationIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83E4EEFB1A7C24AA00780ABF /* GenericApplicationIcon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8310C0FE19BB98AC00754843 /* CMWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMWebView.h; sourceTree = SOURCE_ROOT; };
+		8310C0FF19BB98AC00754843 /* CMWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMWebView.m; sourceTree = SOURCE_ROOT; };
+		8343CE881A79AFF70017BE1F /* Panoptimus.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Panoptimus.icns; sourceTree = SOURCE_ROOT; };
+		8353C4781997F64C00D1DF73 /* Panoptimus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panoptimus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8353C47B1997F64C00D1DF73 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8353C47E1997F64C00D1DF73 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8353C47F1997F64C00D1DF73 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8353C4801997F64C00D1DF73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8353C4831997F64C00D1DF73 /* Panoptimus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Panoptimus-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8353C4851997F64C00D1DF73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8353C4871997F64C00D1DF73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		8353C4891997F64C00D1DF73 /* Panoptimus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Panoptimus-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		8353C48B1997F64C00D1DF73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8353C48D1997F64C00D1DF73 /* CMDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMDocument.h; sourceTree = SOURCE_ROOT; };
+		8353C48E1997F64C00D1DF73 /* CMDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMDocument.m; sourceTree = SOURCE_ROOT; };
+		8353C4911997F64C00D1DF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CMDocument.xib; sourceTree = "<group>"; };
+		8353C4941997F64C00D1DF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8353C4961997F64C00D1DF73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
+		8353C4BC1998055200D1DF73 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		838CFFCC1A7D54CB00B85B70 /* CMWebAddressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMWebAddressBar.h; sourceTree = SOURCE_ROOT; };
+		838CFFCD1A7D54CB00B85B70 /* CMWebAddressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMWebAddressBar.m; sourceTree = SOURCE_ROOT; };
+		83DFB84E1A791CB60094E222 /* CMApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMApplicationDelegate.h; sourceTree = SOURCE_ROOT; };
+		83DFB84F1A791CB60094E222 /* CMApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMApplicationDelegate.m; sourceTree = SOURCE_ROOT; };
+		83E4EEF31A7C206100780ABF /* SearchPreferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchPreferences.png; sourceTree = SOURCE_ROOT; };
+		83E4EEF41A7C206100780ABF /* SearchPreferences@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SearchPreferences@2x.png"; sourceTree = SOURCE_ROOT; };
+		83E4EEF51A7C206100780ABF /* SecurityPreferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecurityPreferences.png; sourceTree = SOURCE_ROOT; };
+		83E4EEF61A7C206100780ABF /* SecurityPreferences@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SecurityPreferences@2x.png"; sourceTree = SOURCE_ROOT; };
+		83E4EEFB1A7C24AA00780ABF /* GenericApplicationIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GenericApplicationIcon.icns; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8353C4751997F64C00D1DF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8353C4BD1998055200D1DF73 /* WebKit.framework in Frameworks */,
+				8353C47C1997F64C00D1DF73 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8353C46F1997F64C00D1DF73 = {
+			isa = PBXGroup;
+			children = (
+				8353C4811997F64C00D1DF73 /* Panoptimus */,
+				8353C47A1997F64C00D1DF73 /* Frameworks */,
+				8353C4791997F64C00D1DF73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8353C4791997F64C00D1DF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8353C4781997F64C00D1DF73 /* Panoptimus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8353C47A1997F64C00D1DF73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8353C4BC1998055200D1DF73 /* WebKit.framework */,
+				8353C47B1997F64C00D1DF73 /* Cocoa.framework */,
+				8353C47D1997F64C00D1DF73 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8353C47D1997F64C00D1DF73 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8353C47E1997F64C00D1DF73 /* AppKit.framework */,
+				8353C47F1997F64C00D1DF73 /* CoreData.framework */,
+				8353C4801997F64C00D1DF73 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8353C4811997F64C00D1DF73 /* Panoptimus */ = {
+			isa = PBXGroup;
+			children = (
+				838CFFCC1A7D54CB00B85B70 /* CMWebAddressBar.h */,
+				838CFFCD1A7D54CB00B85B70 /* CMWebAddressBar.m */,
+				83DFB84E1A791CB60094E222 /* CMApplicationDelegate.h */,
+				83DFB84F1A791CB60094E222 /* CMApplicationDelegate.m */,
+				8310C0FE19BB98AC00754843 /* CMWebView.h */,
+				8310C0FF19BB98AC00754843 /* CMWebView.m */,
+				8353C48D1997F64C00D1DF73 /* CMDocument.h */,
+				8353C48E1997F64C00D1DF73 /* CMDocument.m */,
+				8353C4901997F64C00D1DF73 /* CMDocument.xib */,
+				8353C4931997F64C00D1DF73 /* MainMenu.xib */,
+				8353C4961997F64C00D1DF73 /* Images.xcassets */,
+				8353C4821997F64C00D1DF73 /* Supporting Files */,
+			);
+			path = Panoptimus;
+			sourceTree = "<group>";
+		};
+		8353C4821997F64C00D1DF73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83E4EEFB1A7C24AA00780ABF /* GenericApplicationIcon.icns */,
+				83E4EEF31A7C206100780ABF /* SearchPreferences.png */,
+				83E4EEF41A7C206100780ABF /* SearchPreferences@2x.png */,
+				83E4EEF51A7C206100780ABF /* SecurityPreferences.png */,
+				83E4EEF61A7C206100780ABF /* SecurityPreferences@2x.png */,
+				8343CE881A79AFF70017BE1F /* Panoptimus.icns */,
+				8353C4831997F64C00D1DF73 /* Panoptimus-Info.plist */,
+				8353C4841997F64C00D1DF73 /* InfoPlist.strings */,
+				8353C4871997F64C00D1DF73 /* main.m */,
+				8353C4891997F64C00D1DF73 /* Panoptimus-Prefix.pch */,
+				8353C48A1997F64C00D1DF73 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8353C4771997F64C00D1DF73 /* Panoptimus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8353C4AC1997F64C00D1DF73 /* Build configuration list for PBXNativeTarget "Panoptimus" */;
+			buildPhases = (
+				8353C4741997F64C00D1DF73 /* Sources */,
+				8353C4751997F64C00D1DF73 /* Frameworks */,
+				8353C4761997F64C00D1DF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Panoptimus;
+			productName = Panoptimus;
+			productReference = 8353C4781997F64C00D1DF73 /* Panoptimus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8353C4701997F64C00D1DF73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chris Morrison";
+			};
+			buildConfigurationList = 8353C4731997F64C00D1DF73 /* Build configuration list for PBXProject "Panoptimus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8353C46F1997F64C00D1DF73;
+			productRefGroup = 8353C4791997F64C00D1DF73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8353C4771997F64C00D1DF73 /* Panoptimus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8353C4761997F64C00D1DF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8343CE891A79AFF70017BE1F /* Panoptimus.icns in Resources */,
+				8353C4861997F64C00D1DF73 /* InfoPlist.strings in Resources */,
+				83E4EEFC1A7C24AA00780ABF /* GenericApplicationIcon.icns in Resources */,
+				8353C4971997F64C00D1DF73 /* Images.xcassets in Resources */,
+				83E4EEF91A7C206100780ABF /* SecurityPreferences.png in Resources */,
+				8353C48C1997F64C00D1DF73 /* Credits.rtf in Resources */,
+				8353C4921997F64C00D1DF73 /* CMDocument.xib in Resources */,
+				83E4EEF81A7C206100780ABF /* SearchPreferences@2x.png in Resources */,
+				83E4EEF71A7C206100780ABF /* SearchPreferences.png in Resources */,
+				8353C4951997F64C00D1DF73 /* MainMenu.xib in Resources */,
+				83E4EEFA1A7C206100780ABF /* SecurityPreferences@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8353C4741997F64C00D1DF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838CFFCE1A7D54CB00B85B70 /* CMWebAddressBar.m in Sources */,
+				8353C48F1997F64C00D1DF73 /* CMDocument.m in Sources */,
+				8310C10019BB98AC00754843 /* CMWebView.m in Sources */,
+				8353C4881997F64C00D1DF73 /* main.m in Sources */,
+				83DFB8501A791CB60094E222 /* CMApplicationDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8353C4841997F64C00D1DF73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8353C4851997F64C00D1DF73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = SOURCE_ROOT;
+		};
+		8353C48A1997F64C00D1DF73 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8353C48B1997F64C00D1DF73 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = SOURCE_ROOT;
+		};
+		8353C4901997F64C00D1DF73 /* CMDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8353C4911997F64C00D1DF73 /* Base */,
+			);
+			name = CMDocument.xib;
+			sourceTree = SOURCE_ROOT;
+		};
+		8353C4931997F64C00D1DF73 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8353C4941997F64C00D1DF73 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8353C4AA1997F64C00D1DF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8353C4AB1997F64C00D1DF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8353C4AD1997F64C00D1DF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Panoptimus/Panoptimus-Prefix.pch";
+				INFOPLIST_FILE = "Panoptimus/Panoptimus-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Panoptimus;
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8353C4AE1997F64C00D1DF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Panoptimus/Panoptimus-Prefix.pch";
+				INFOPLIST_FILE = "Panoptimus/Panoptimus-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Panoptimus;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8353C4731997F64C00D1DF73 /* Build configuration list for PBXProject "Panoptimus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353C4AA1997F64C00D1DF73 /* Debug */,
+				8353C4AB1997F64C00D1DF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8353C4AC1997F64C00D1DF73 /* Build configuration list for PBXNativeTarget "Panoptimus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353C4AD1997F64C00D1DF73 /* Debug */,
+				8353C4AE1997F64C00D1DF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8353C4701997F64C00D1DF73 /* Project object */;
+}
