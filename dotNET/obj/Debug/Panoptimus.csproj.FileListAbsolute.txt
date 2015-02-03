@@ -1,1 +1,2 @@
 c:\users\chris\documents\visual studio 2013\Projects\Panoptimus\bin\Debug\Panoptimus.exe.config
+C:\Users\Chris\Projects\Panoptimus\dotNET\bin\Debug\Panoptimus.exe.config
