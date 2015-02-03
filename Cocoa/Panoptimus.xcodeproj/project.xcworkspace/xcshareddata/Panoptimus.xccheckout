@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B4600B39-8DD2-4D16-9D58-A6A22B09D6DE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Panoptimus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6C0CAE05C3E20A5F61CFCAAC35FD9DFA414E0736</key>
+		<string>https://github.com/ChrisMorrisonGitHub/Panoptimus.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cocoa/Panoptimus.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6C0CAE05C3E20A5F61CFCAAC35FD9DFA414E0736</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ChrisMorrisonGitHub/Panoptimus.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6C0CAE05C3E20A5F61CFCAAC35FD9DFA414E0736</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6C0CAE05C3E20A5F61CFCAAC35FD9DFA414E0736</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Panoptimus</string>
+		</dict>
+	</array>
+</dict>
+</plist>

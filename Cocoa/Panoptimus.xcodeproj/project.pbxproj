@@ -340,8 +340,8 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Panoptimus/Panoptimus-Prefix.pch";
-				INFOPLIST_FILE = "Panoptimus/Panoptimus-Info.plist";
+				GCC_PREFIX_HEADER = "Panoptimus-Prefix.pch";
+				INFOPLIST_FILE = "Panoptimus-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Panoptimus;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -356,8 +356,8 @@
 				DEAD_CODE_STRIPPING = YES;
 				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Panoptimus/Panoptimus-Prefix.pch";
-				INFOPLIST_FILE = "Panoptimus/Panoptimus-Info.plist";
+				GCC_PREFIX_HEADER = "Panoptimus-Prefix.pch";
+				INFOPLIST_FILE = "Panoptimus-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Panoptimus;
 				WRAPPER_EXTENSION = app;
