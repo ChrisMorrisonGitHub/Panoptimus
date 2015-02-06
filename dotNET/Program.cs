@@ -16,7 +16,9 @@ namespace Panoptimus
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BrowserWindow());
+            ApplicationController applicationController = new ApplicationController();
+            applicationController.NewWindow();
+            Application.Run();
         }
     }
 }

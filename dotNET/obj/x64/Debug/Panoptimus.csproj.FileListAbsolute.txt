@@ -1,0 +1,11 @@
+C:\Users\Chris\Projects\Panoptimus\dotNET\bin\x64\Debug\Panoptimus.exe.config
+C:\Users\Chris\Projects\Panoptimus\dotNET\bin\x64\Debug\Panoptimus.exe
+C:\Users\Chris\Projects\Panoptimus\dotNET\bin\x64\Debug\Panoptimus.pdb
+C:\Users\Chris\Projects\Panoptimus\dotNET\bin\x64\Debug\Panoptimus.exe.CodeAnalysisLog.xml
+C:\Users\Chris\Projects\Panoptimus\dotNET\bin\x64\Debug\Panoptimus.exe.lastcodeanalysissucceeded
+C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x64\Debug\Panoptimus.BrowserWindow.resources
+C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x64\Debug\Panoptimus.Properties.Resources.resources
+C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x64\Debug\Panoptimus.WebAddressBar.resources
+C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x64\Debug\Panoptimus.csproj.GenerateResource.Cache
+C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x64\Debug\Panoptimus.exe
+C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x64\Debug\Panoptimus.pdb
