@@ -1,9 +1,0 @@
-C:\Users\Chris\Projects\Panoptimus\dotNET\bin\x86\Debug\Panoptimus.exe.config
-C:\Users\Chris\Projects\Panoptimus\dotNET\bin\x86\Debug\Panoptimus.exe
-C:\Users\Chris\Projects\Panoptimus\dotNET\bin\x86\Debug\Panoptimus.pdb
-C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x86\Debug\Panoptimus.BrowserWindow.resources
-C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x86\Debug\Panoptimus.Properties.Resources.resources
-C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x86\Debug\Panoptimus.WebAddressBar.resources
-C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x86\Debug\Panoptimus.csproj.GenerateResource.Cache
-C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x86\Debug\Panoptimus.exe
-C:\Users\Chris\Projects\Panoptimus\dotNET\obj\x86\Debug\Panoptimus.pdb
